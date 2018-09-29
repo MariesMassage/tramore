@@ -1,0 +1,11 @@
+CACHE MANIFEST
+#DATE 2018-09-09
+CACHE:
+css/style.css
+js/script.js
+
+NETWORK:
+*
+
+FALLBACK:
+static.html
