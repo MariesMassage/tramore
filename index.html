@@ -18,6 +18,20 @@
 </head>
 <body>
 <div class="container-fluid">
+	<!-- Cookie Bar -->
+	<div id="cookie_directive_container" class="container" style="display: none">
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container-fluid">
+            	<div class="navbar-inner navbar-content-center" id="cookie_accept">
+                	<a id="cookieCloseButton"href="#" class="btn btn-default pull-right">Close</a>
+                	<p class="text-muted credit">
+                  		By using our website you are consenting to our use of cookies in accordance with our <a href="cookiepolicy.html" target="_blank">cookie policy</a>.
+               		</p>
+                	<br>
+            	</div>
+          	</div>
+        </nav>
+    </div>
 
 <nav id="borderLine" class="navbar navbar-fixed-top fadeIn">
     <div class="navbar-header fadeIn">
@@ -161,14 +175,6 @@
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<!-- <script type="text/javascript" src="js/script.js"></script> -->
-<script type="text/javascript">
-	$(document).ready(function(){
-    
-    $("div.nav.navbar-nav.navbar-right").click(function(){
-        $(".collapse").collapse('hide');
-    });
-});
-</script>
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

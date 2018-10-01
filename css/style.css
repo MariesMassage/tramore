@@ -105,7 +105,19 @@ img {
   
 }
 
+#cookieNav{
+  background-color: #f8d3d7;
+  height: 100px;
+}
 
+#policy{
+  min-height: 80vh;
+}
+
+#cookieCloseButton{
+  font-family: sans-serif;
+  margin-top: 10px;
+}
 a{
   color: #7D2C4D;
   text-decoration: none;
