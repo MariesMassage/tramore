@@ -21,7 +21,9 @@ footer>p{
   margin: 0px;
 }
 
-
+footer>a{
+  text-align: center;
+}
 p{
   font-family: 'Italianno', cursive;
 }
