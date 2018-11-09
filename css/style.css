@@ -140,7 +140,7 @@ a:hover{
 }
 
 #logo{
-	background-color: #f8d3d7;
+	background-color: rgb(248,211,215,0.7);
 	max-width: 900px;
 	min-height: 250px;
 	padding: 20px;
@@ -290,12 +290,12 @@ h2 {
 
  #myNav{
   
-  -webkit-animation-delay:10s;
-  animation-delay:10s;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
+  -webkit-animation-delay:1s;
+  animation-delay:1s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
 
 }
 
@@ -307,67 +307,21 @@ h2 {
 
 
 #borderLine{
-
-    -webkit-animation-delay:17s;
-    animation-delay:17s;
-    -webkit-animation-duration: 7s;
-    animation-duration: 7s;
+    -webkit-animation-delay:1s;
+    animation-delay:1s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 
 }
 
-/*Logo transformation */
-
-.fixedIndulge{
-	position: fixed; 
-	top: 150px;
-  right: 180px;
-}
-
-.fixedRelax{
-  position: fixed; 
-  top: 10px;
-  left: 50px;
-}
-.fixedUnwind{
-	position: fixed; 
-	top: 100px;
-    left: 160px;	
-}
-
-.indulgeAnimated {
-  -webkit-animation-duration: 7s;
-  animation-duration: 7s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  
-}
-.relaxAnimated {
-  
-
-  -webkit-animation-delay:4s;
-  animation-delay: 4s;
-  -webkit-animation-duration: 7s;
-  animation-duration: 7s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-.unwindAnimated {
-  -webkit-animation-delay:8s;
-  animation-delay: 8s;
-  -webkit-animation-duration: 7s;
-  animation-duration: 7s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
 
 .logoAnimated{
-	-webkit-animation-delay:12s;
-	animation-delay: 12s;
-	-webkit-animation-duration: 7s;
-  	animation-duration: 7s;
+	-webkit-animation-delay:1s;
+	animation-delay: 1s;
+	-webkit-animation-duration: 3s;
+  	animation-duration: 3s;
   	-webkit-animation-fill-mode: both;
   	animation-fill-mode: both;
 }
@@ -376,7 +330,7 @@ h2 {
 /* zoom in*/
 @-webkit-keyframes zoomIn {
   from {
-    opacity: 0;
+    opacity: 0.3;
     -webkit-transform: scale3d(0.3, 0.3, 0.3);
     transform: scale3d(0.3, 0.3, 0.3);
   }
