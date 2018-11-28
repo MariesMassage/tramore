@@ -45,7 +45,7 @@ h3{
 h1, h2, h3{
   padding-bottom: 20px;
   color: #7D2C4D;
-  font-weight: : bolder;
+  font-weight: bolder;
   text-align: center;
 }
 
@@ -55,8 +55,6 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    vertical-align: middle;
-
 }
 
 .navbar-collapse{
