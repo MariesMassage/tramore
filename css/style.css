@@ -3,6 +3,7 @@ html,body
 {
   overflow-x: hidden; 
   margin:0px;
+  scroll-behavior: smooth;
 }
 body{
   font-family: 'Rouge Script', cursive;
